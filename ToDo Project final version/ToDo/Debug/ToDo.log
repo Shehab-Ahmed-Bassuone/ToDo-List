@@ -1,0 +1,22 @@
+﻿C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "MySql.Data, Version=6.10.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3243: No way to resolve conflict between "MySql.Data, Version=8.0.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" and "MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d". Choosing "MySql.Data, Version=8.0.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" arbitrarily.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3243: No way to resolve conflict between "MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" and "MySql.Data, Version=6.10.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d". Choosing "MySql.Data, Version=6.10.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" arbitrarily.
+  Consider app.config remapping of assembly "MySql.Data, Culture=neutral, PublicKeyToken=c5687fc88969c44d" from Version "6.10.6.0" [] to Version "8.0.11.0" [C:\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2\MySql.Data.dll] to solve conflict and get rid of warning.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly.
+  addsuccess.cpp
+  Form1.cpp
+f:\my project\todo list\todo project final version\todo\Form1.h(71): warning C4677: 'conobj': signature of non-private member contains assembly private type 'ToDo::con_struct'
+          f:\my project\todo list\todo project final version\todo\Form1.h(15) : see declaration of 'ToDo::con_struct'
+          f:\my project\todo list\todo project final version\todo\Form1.h(71) : see declaration of 'ToDo::con_struct'
+f:\my project\todo list\todo project final version\todo\Form1.h(74): warning C4677: 'todoobj': signature of non-private member contains assembly private type 'ToDo::todo_struct'
+          f:\my project\todo list\todo project final version\todo\Form1.h(21) : see declaration of 'ToDo::todo_struct'
+          f:\my project\todo list\todo project final version\todo\Form1.h(74) : see declaration of 'ToDo::todo_struct'
+f:\my project\todo list\todo project final version\todo\Form1.h(3169): warning C4101: 'ex' : unreferenced local variable
+f:\my project\todo list\todo project final version\todo\Form1.h(3216): warning C4101: 'ex' : unreferenced local variable
+f:\my project\todo list\todo project final version\todo\Form1.h(3276): warning C4101: 'ex' : unreferenced local variable
+f:\my project\todo list\todo project final version\todo\Form1.h(3341): warning C4101: 'ex' : unreferenced local variable
+  Generating Code...
+f:\my project\todo list\todo project final version\todo\form1.h(3484): warning C4715: 'ToDo::Form1::Filloveragain' : not all control paths return a value
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  ToDo.vcxproj -> F:\my project\TODO list\ToDo Project final version\Debug\ToDo.exe
